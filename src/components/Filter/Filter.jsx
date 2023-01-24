@@ -17,7 +17,7 @@ export const Filter = () => {
   return (
     <>
       <Label>
-        Find contacts by name
+        Find contact by name
         <Input type="text" value={filter} onChange={changeHandleFilter} />
       </Label>
     </>

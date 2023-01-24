@@ -8,6 +8,7 @@ export const ContainerForm = styled.div`
 `;
 
 export const ContactForm = styled(Form)`
+  margin-left: 33vw;
   display: flex;
   flex-direction: column;
 `;
@@ -15,13 +16,14 @@ export const ContactForm = styled(Form)`
 export const Lable = styled.label`
   display: flex;
   flex-direction: column;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  font-weight: bold;
 `;
 
 export const Input = styled(Field)`
   width: 200px;
   margin-top: 5px;
-  border: 1px solid gray;
+  border: 1px solid purple;
   background-color: white;
   &:focus {
     border-color: blue;
@@ -32,7 +34,8 @@ export const Input = styled(Field)`
 export const Button = styled.button`
   width: fit-content;
   font-size: 16px;
-  background-color: #c0c0c0;
-  border-radius: 5px;
-  border: 1px solid gray;
+  border-radius: 3px;
+  border: 1px solid purple;
+  color: white;
+  background: purple;
 `;

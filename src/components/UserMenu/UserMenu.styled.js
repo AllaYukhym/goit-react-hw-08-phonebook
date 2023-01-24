@@ -12,7 +12,8 @@ export const UserName = styled.p`
 
 export const Button = styled.button`
   font-size: 16px;
-  background-color: #c0c0c0;
-  border-radius: 5px;
-  border: 1px solid gray;
+  border-radius: 3px;
+  border: 1px solid purple;
+  color: white;
+  background: purple;
 `;

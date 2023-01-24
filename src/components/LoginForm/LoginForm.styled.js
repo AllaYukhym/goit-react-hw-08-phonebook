@@ -12,6 +12,8 @@ export const Label = styled.label`
 
 export const Input = styled.input`
   margin-top: 5px;
+  border: 1px solid purple;
+  background-color: white;
   &:focus {
     border-color: blue;
     background-color: white;
@@ -20,7 +22,8 @@ export const Input = styled.input`
 
 export const Button = styled.button`
   font-size: 16px;
-  background-color: #c0c0c0;
-  border-radius: 5px;
-  border: 1px solid gray;
+  border-radius: 3px;
+  border: 1px solid purple;
+  color: white;
+  background: purple;
 `;
